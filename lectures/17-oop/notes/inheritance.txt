@@ -19,6 +19,7 @@ plainbox      =  weightbox;
 (superclass)     (subclass)
 
 SUPERCLASS ref = new SUBCLASS();    // HERE ref can only access methods which are available in SUPERCLASS
+NOTE :- Object class is the main class from which every class is inherit
 
 Using super:
 Whenever a subclass needs to refer to its immediate superclass, it can do so by use of the keyword super.
